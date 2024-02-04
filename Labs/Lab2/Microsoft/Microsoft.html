@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft</title>
+    <style>
+        .header {
+            background-color: #fcfeff;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+
+        .logo {
+            height: 50px;
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav a {
+            color: black;
+            text-decoration: none;
+            padding: 0 10px;
+            border-right: 1px solid rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+        }
+
+        .nav a:last-child {
+            border-right: none;
+        }
+
+        .nav a:hover {
+            color: #0d0d0d;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            padding: 0 10px;
+            height: 30px;
+        }
+
+        .search input {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: white;
+            flex-grow: 1;
+        }
+
+        .search button {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            margin-left: 10px;
+            padding: 0;
+            height: 30px;
+        }
+
+        .user-menu {
+            display: flex;
+            align-items: center;
+        }
+
+        .user-menu a {
+            color: black;
+            text-decoration: none;
+            padding: 0 10px;
+            border-right: 1px solid rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+        }
+
+        .user-menu a:last-child {
+            border-right: none;
+        }
+
+        .user-menu a:hover {
+            color: #060606;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="logo.png" alt="Microsoft" class="logo">
+        <nav class="nav">
+            <a href="#">Microsoft 365</a>
+            <a href="#">Office</a>
+            <a href="#">Windows</a>
+            <a href="#">Поддержка</a>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="Поиск">
+            <button><img src="search.png" alt="Search" height="30px"></button>
+        </div>
+        <div class="user-menu">
+            
+            <a href="#">Все продукты Microsoft</a>
+            <a href="#">Поиск</a>
+            <a href="#">Корзина</a>
+            <a href="#">Войти (2)</a>
+        </div>
+    </header>
+</body>
+</html
