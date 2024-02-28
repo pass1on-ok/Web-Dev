@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav .left-side {
+    display: flex;
+    align-items: center;
+}
+
+.nav .left-side img {
+    height: 30px;
+    margin-right: 20px;
+}
+
+.nav .left-side ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav .left-side li {
+    margin-right: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+.nav .right-side ul.right {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: black;
+}
+
+.nav .right-side li {
+    margin-right: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.nav .right-side li i {
+    margin-left: 5px;
+}
+
+.main {
+    padding: 10px;
+}
+
+.main-content {
+    width: 100%;
+    height: 400px; 
+    background-image: url('images/background.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(1, 1, 1); 
+    text-align: center;
+}
+
+.text-book {
+    margin-right: 1000px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+}
+
+.text-book h1{    
+    text-align: justify;
+    line-height: 10px;
+}
+
+.text-book p{    
+    text-align: justify;
+}
+
+.text-book button{    
+    width: 50%;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 13px;
+    background-color: rgb(0, 0, 0);
+}
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  background-color: #000000;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.offer {
+  background-color: #b8b8b8;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.text-book button {
+    margin-right: 250px;
+}
+
+.products {
+    margin-top: 20px;
+    padding: 5px;
+    display: inline-block;
+    align-items: center;
+}
+
+.cart {
+    width: 23%;
+    text-align: justify;
+    padding: 10px;
+    display: inline-block;
+}
+
+.cart img {
+    width: 90%;
+}
+
+.cart p {
+    width: 90%;;
+}
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="nav">
+            <div class="left-side">
+                <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+                    alt="logo">
+                <ul>
+                    <li>Microsoft 365</li>
+                    <li>Office</li>
+                    <li>Windows</li>
+                    <li>Поддержка</li>
+                </ul>
+            </div>
+            <div class="right-side">
+                <ul class="right">
+                    <li>
+                        Продукты Майкрософт
+                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        Поиск
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        Войти
+                        <i class="fa fa-user-plus" aria-hidden="true"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main-content">
+                <div class="text-book">
+                    <h1>Microsoft 365 </h1>
+                    
+                    <p>Приложение Office премиум, дополнительное облачное хранилище, продвинутые инструменты обеспечение безопасности - все в одной подписке </p>
+                    <div class="button-container">
+                        <button class="button">До б человека</button>
+                        <div class="offer">Для 1 человека ></div>
+                      </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="products">
+            <div class="cart">
+                <img src="images/teams.png" alt="product">
+                <h2>Microsoft Teams</h2>
+                <p>Общайтесь, проводите собрания, звоните
+                    и сотрудничайте.</p>
+                <a href="#">
+                    Скачать
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="cart">
+                <img src="images/edge.png" alt="product">
+                <h2>Microsoft Edge</h2>
+                <p>Потрясающая производительность, больше конфиденциальности, продуктивности и дополнительных
+                    возможностей.</p>
+                <a href="#">
+                    Скачать
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="cart">
+                <img src="images/onedrive.png" alt="product">
+                <h2>Microsoft OneDrive</h2>
+                <p>Сохраняйте свои файлы и фотографии на OneDrive - они будут доступны с любого устройство и где угодно.</p>
+                <a href="#">
+                    Скачать
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="cart">
+                <img src="images/update.png" alt="product">
+                <h2>Обновление Windows 10</h2>
+                <p>Предоставляя новые функции, которые помогут вам успевать больше, общаться чаще экономить время.</p>
+                <a href="#">
+                    Скачать
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
